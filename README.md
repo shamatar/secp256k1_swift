@@ -4,5 +4,5 @@
 
 Add to the Podfile
 ```
-pod 'secp256k1_swift', '~> 0.1.0'
+pod 'secp256k1_swift', '~> 1.0.0'
 ```
