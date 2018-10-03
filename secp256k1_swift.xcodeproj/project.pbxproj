@@ -31,10 +31,6 @@
 		81B8ECD7216561D500CB0D7C /* scalar_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC5F216561D500CB0D7C /* scalar_impl.h */; };
 		81B8ECD8216561D500CB0D7C /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC60216561D500CB0D7C /* field_10x26_impl.h */; };
 		81B8ECD9216561D500CB0D7C /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC60216561D500CB0D7C /* field_10x26_impl.h */; };
-		81B8ECDA216561D500CB0D7C /* testrand_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC61216561D500CB0D7C /* testrand_impl.h */; };
-		81B8ECDB216561D500CB0D7C /* testrand_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC61216561D500CB0D7C /* testrand_impl.h */; };
-		81B8ECDC216561D500CB0D7C /* field_10x26_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC63216561D500CB0D7C /* field_10x26_arm.s */; };
-		81B8ECDD216561D500CB0D7C /* field_10x26_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC63216561D500CB0D7C /* field_10x26_arm.s */; };
 		81B8ECDE216561D500CB0D7C /* scratch.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC64216561D500CB0D7C /* scratch.h */; };
 		81B8ECDF216561D500CB0D7C /* scratch.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC64216561D500CB0D7C /* scratch.h */; };
 		81B8ECE0216561D500CB0D7C /* ecmult_gen_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC65216561D500CB0D7C /* ecmult_gen_impl.h */; };
@@ -47,12 +43,8 @@
 		81B8ECE7216561D500CB0D7C /* field_5x52.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC68216561D500CB0D7C /* field_5x52.h */; };
 		81B8ECE8216561D500CB0D7C /* num_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC69216561D500CB0D7C /* num_impl.h */; };
 		81B8ECE9216561D500CB0D7C /* num_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC69216561D500CB0D7C /* num_impl.h */; };
-		81B8ECEA216561D500CB0D7C /* bench_recover.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC6A216561D500CB0D7C /* bench_recover.c */; };
-		81B8ECEB216561D500CB0D7C /* bench_recover.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC6A216561D500CB0D7C /* bench_recover.c */; };
 		81B8ECEC216561D500CB0D7C /* field.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6B216561D500CB0D7C /* field.h */; };
 		81B8ECED216561D500CB0D7C /* field.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6B216561D500CB0D7C /* field.h */; };
-		81B8ECEE216561D500CB0D7C /* bench.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6C216561D500CB0D7C /* bench.h */; };
-		81B8ECEF216561D500CB0D7C /* bench.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6C216561D500CB0D7C /* bench.h */; };
 		81B8ECF0216561D500CB0D7C /* field_5x52_asm_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6D216561D500CB0D7C /* field_5x52_asm_impl.h */; };
 		81B8ECF1216561D500CB0D7C /* field_5x52_asm_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6D216561D500CB0D7C /* field_5x52_asm_impl.h */; };
 		81B8ECF2216561D500CB0D7C /* field_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6E216561D500CB0D7C /* field_impl.h */; };
@@ -71,24 +63,6 @@
 		81B8ECFF216561D500CB0D7C /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC74216561D500CB0D7C /* secp256k1.c */; };
 		81B8ED00216561D500CB0D7C /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC75216561D500CB0D7C /* ecdsa.h */; };
 		81B8ED01216561D600CB0D7C /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC75216561D500CB0D7C /* ecdsa.h */; };
-		81B8ED02216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC77216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.c */; };
-		81B8ED03216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC77216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.c */; };
-		81B8ED04216561D600CB0D7C /* NativeSecp256k1.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7A216561D500CB0D7C /* NativeSecp256k1.java */; };
-		81B8ED05216561D600CB0D7C /* NativeSecp256k1.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7A216561D500CB0D7C /* NativeSecp256k1.java */; };
-		81B8ED06216561D600CB0D7C /* NativeSecp256k1Test.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7B216561D500CB0D7C /* NativeSecp256k1Test.java */; };
-		81B8ED07216561D600CB0D7C /* NativeSecp256k1Test.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7B216561D500CB0D7C /* NativeSecp256k1Test.java */; };
-		81B8ED08216561D600CB0D7C /* Secp256k1Context.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7C216561D500CB0D7C /* Secp256k1Context.java */; };
-		81B8ED09216561D600CB0D7C /* Secp256k1Context.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7C216561D500CB0D7C /* Secp256k1Context.java */; };
-		81B8ED0A216561D600CB0D7C /* NativeSecp256k1Util.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7D216561D500CB0D7C /* NativeSecp256k1Util.java */; };
-		81B8ED0B216561D600CB0D7C /* NativeSecp256k1Util.java in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC7D216561D500CB0D7C /* NativeSecp256k1Util.java */; };
-		81B8ED0C216561D600CB0D7C /* org_bitcoin_Secp256k1Context.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC7E216561D500CB0D7C /* org_bitcoin_Secp256k1Context.h */; };
-		81B8ED0D216561D600CB0D7C /* org_bitcoin_Secp256k1Context.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC7E216561D500CB0D7C /* org_bitcoin_Secp256k1Context.h */; };
-		81B8ED0E216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC7F216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.h */; };
-		81B8ED0F216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC7F216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.h */; };
-		81B8ED10216561D600CB0D7C /* org_bitcoin_Secp256k1Context.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC80216561D500CB0D7C /* org_bitcoin_Secp256k1Context.c */; };
-		81B8ED11216561D600CB0D7C /* org_bitcoin_Secp256k1Context.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC80216561D500CB0D7C /* org_bitcoin_Secp256k1Context.c */; };
-		81B8ED12216561D600CB0D7C /* tests_exhaustive.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC81216561D500CB0D7C /* tests_exhaustive.c */; };
-		81B8ED13216561D600CB0D7C /* tests_exhaustive.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC81216561D500CB0D7C /* tests_exhaustive.c */; };
 		81B8ED14216561D600CB0D7C /* scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC82216561D500CB0D7C /* scalar.h */; };
 		81B8ED15216561D600CB0D7C /* scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC82216561D500CB0D7C /* scalar.h */; };
 		81B8ED16216561D600CB0D7C /* ecdsa_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC83216561D500CB0D7C /* ecdsa_impl.h */; };
@@ -103,42 +77,22 @@
 		81B8ED1F216561D600CB0D7C /* ecmult.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC87216561D500CB0D7C /* ecmult.h */; };
 		81B8ED20216561D600CB0D7C /* scratch_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC88216561D500CB0D7C /* scratch_impl.h */; };
 		81B8ED21216561D600CB0D7C /* scratch_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC88216561D500CB0D7C /* scratch_impl.h */; };
-		81B8ED22216561D600CB0D7C /* bench_sign.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC89216561D500CB0D7C /* bench_sign.c */; };
-		81B8ED23216561D600CB0D7C /* bench_sign.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC89216561D500CB0D7C /* bench_sign.c */; };
 		81B8ED24216561D600CB0D7C /* ecmult_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8A216561D500CB0D7C /* ecmult_impl.h */; };
 		81B8ED25216561D600CB0D7C /* ecmult_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8A216561D500CB0D7C /* ecmult_impl.h */; };
 		81B8ED26216561D600CB0D7C /* group.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8B216561D500CB0D7C /* group.h */; };
 		81B8ED27216561D600CB0D7C /* group.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8B216561D500CB0D7C /* group.h */; };
-		81B8ED28216561D600CB0D7C /* bench_verify.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC8C216561D500CB0D7C /* bench_verify.c */; };
-		81B8ED29216561D600CB0D7C /* bench_verify.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC8C216561D500CB0D7C /* bench_verify.c */; };
-		81B8ED2A216561D600CB0D7C /* tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC8D216561D500CB0D7C /* tests.c */; };
-		81B8ED2B216561D600CB0D7C /* tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC8D216561D500CB0D7C /* tests.c */; };
-		81B8ED2C216561D600CB0D7C /* gen_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC8E216561D500CB0D7C /* gen_context.c */; };
-		81B8ED2D216561D600CB0D7C /* gen_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC8E216561D500CB0D7C /* gen_context.c */; };
 		81B8ED2E216561D600CB0D7C /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8F216561D500CB0D7C /* util.h */; };
 		81B8ED2F216561D600CB0D7C /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8F216561D500CB0D7C /* util.h */; };
 		81B8ED30216561D600CB0D7C /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC90216561D500CB0D7C /* field_5x52_int128_impl.h */; };
 		81B8ED31216561D600CB0D7C /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC90216561D500CB0D7C /* field_5x52_int128_impl.h */; };
 		81B8ED32216561D600CB0D7C /* scalar_4x64_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC91216561D500CB0D7C /* scalar_4x64_impl.h */; };
 		81B8ED33216561D600CB0D7C /* scalar_4x64_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC91216561D500CB0D7C /* scalar_4x64_impl.h */; };
-		81B8ED34216561D600CB0D7C /* bench_ecdh.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC92216561D500CB0D7C /* bench_ecdh.c */; };
-		81B8ED35216561D600CB0D7C /* bench_ecdh.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC92216561D500CB0D7C /* bench_ecdh.c */; };
 		81B8ED36216561D600CB0D7C /* group_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC93216561D500CB0D7C /* group_impl.h */; };
 		81B8ED37216561D600CB0D7C /* group_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC93216561D500CB0D7C /* group_impl.h */; };
 		81B8ED38216561D600CB0D7C /* ecmult_const.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC94216561D500CB0D7C /* ecmult_const.h */; };
 		81B8ED39216561D600CB0D7C /* ecmult_const.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC94216561D500CB0D7C /* ecmult_const.h */; };
-		81B8ED3A216561D600CB0D7C /* bench_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC95216561D500CB0D7C /* bench_internal.c */; };
-		81B8ED3B216561D600CB0D7C /* bench_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC95216561D500CB0D7C /* bench_internal.c */; };
-		81B8ED3C216561D600CB0D7C /* Makefile.am.include in Resources */ = {isa = PBXBuildFile; fileRef = 81B8EC98216561D500CB0D7C /* Makefile.am.include */; };
-		81B8ED3D216561D600CB0D7C /* Makefile.am.include in Resources */ = {isa = PBXBuildFile; fileRef = 81B8EC98216561D500CB0D7C /* Makefile.am.include */; };
-		81B8ED3E216561D600CB0D7C /* tests_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC99216561D500CB0D7C /* tests_impl.h */; };
-		81B8ED3F216561D600CB0D7C /* tests_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC99216561D500CB0D7C /* tests_impl.h */; };
 		81B8ED40216561D600CB0D7C /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9A216561D500CB0D7C /* main_impl.h */; };
 		81B8ED41216561D600CB0D7C /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9A216561D500CB0D7C /* main_impl.h */; };
-		81B8ED42216561D600CB0D7C /* Makefile.am.include in Resources */ = {isa = PBXBuildFile; fileRef = 81B8EC9C216561D500CB0D7C /* Makefile.am.include */; };
-		81B8ED43216561D600CB0D7C /* Makefile.am.include in Resources */ = {isa = PBXBuildFile; fileRef = 81B8EC9C216561D500CB0D7C /* Makefile.am.include */; };
-		81B8ED44216561D600CB0D7C /* tests_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9D216561D500CB0D7C /* tests_impl.h */; };
-		81B8ED45216561D600CB0D7C /* tests_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9D216561D500CB0D7C /* tests_impl.h */; };
 		81B8ED46216561D600CB0D7C /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9E216561D500CB0D7C /* main_impl.h */; };
 		81B8ED47216561D600CB0D7C /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9E216561D500CB0D7C /* main_impl.h */; };
 		81B8ED48216561D600CB0D7C /* num_gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9F216561D500CB0D7C /* num_gmp.h */; };
@@ -147,8 +101,6 @@
 		81B8ED4B216561D600CB0D7C /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA0216561D500CB0D7C /* hash.h */; };
 		81B8ED4C216561D600CB0D7C /* eckey_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA1216561D500CB0D7C /* eckey_impl.h */; };
 		81B8ED4D216561D600CB0D7C /* eckey_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA1216561D500CB0D7C /* eckey_impl.h */; };
-		81B8ED4E216561D600CB0D7C /* bench_ecmult.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8ECA2216561D500CB0D7C /* bench_ecmult.c */; };
-		81B8ED4F216561D600CB0D7C /* bench_ecmult.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8ECA2216561D500CB0D7C /* bench_ecmult.c */; };
 		81B8ED50216561D600CB0D7C /* testrand.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA3216561D500CB0D7C /* testrand.h */; };
 		81B8ED51216561D600CB0D7C /* testrand.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA3216561D500CB0D7C /* testrand.h */; };
 		81B8ED52216561D600CB0D7C /* num_gmp_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA4216561D500CB0D7C /* num_gmp_impl.h */; };
@@ -161,6 +113,58 @@
 		81B8ED59216561D600CB0D7C /* eckey.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA7216561D500CB0D7C /* eckey.h */; };
 		81B8ED5B2165626000CB0D7C /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ED5A2165626000CB0D7C /* libsecp256k1-config.h */; };
 		81B8ED5C2165626000CB0D7C /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ED5A2165626000CB0D7C /* libsecp256k1-config.h */; };
+		81B8ED7E216573AC00CB0D7C /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC4F216561D500CB0D7C /* lax_der_privatekey_parsing.c */; };
+		81B8ED7F216573AC00CB0D7C /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC74216561D500CB0D7C /* secp256k1.c */; };
+		81B8ED80216573AC00CB0D7C /* secp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0F9FF20BF3A0300417C64 /* secp256k1.swift */; };
+		81B8ED81216573AC00CB0D7C /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B8EC50216561D500CB0D7C /* lax_der_parsing.c */; };
+		81B8ED84216573AC00CB0D7C /* num_gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9F216561D500CB0D7C /* num_gmp.h */; };
+		81B8ED85216573AC00CB0D7C /* lax_der_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC4E216561D500CB0D7C /* lax_der_parsing.h */; };
+		81B8ED86216573AC00CB0D7C /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8F216561D500CB0D7C /* util.h */; };
+		81B8ED87216573AC00CB0D7C /* ecmult_const.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC94216561D500CB0D7C /* ecmult_const.h */; };
+		81B8ED88216573AC00CB0D7C /* ecmult_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC84216561D500CB0D7C /* ecmult_gen.h */; };
+		81B8ED89216573AC00CB0D7C /* field.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6B216561D500CB0D7C /* field.h */; };
+		81B8ED8A216573AC00CB0D7C /* ecmult_const_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC73216561D500CB0D7C /* ecmult_const_impl.h */; };
+		81B8ED8B216573AC00CB0D7C /* ecmult_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8A216561D500CB0D7C /* ecmult_impl.h */; };
+		81B8ED8C216573AC00CB0D7C /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ED5A2165626000CB0D7C /* libsecp256k1-config.h */; };
+		81B8ED8D216573AC00CB0D7C /* field_5x52.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC68216561D500CB0D7C /* field_5x52.h */; };
+		81B8ED8E216573AC00CB0D7C /* basic-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC70216561D500CB0D7C /* basic-config.h */; };
+		81B8ED8F216573AC00CB0D7C /* group_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC93216561D500CB0D7C /* group_impl.h */; };
+		81B8ED90216573AC00CB0D7C /* ecdsa_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC83216561D500CB0D7C /* ecdsa_impl.h */; };
+		81B8ED91216573AC00CB0D7C /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC90216561D500CB0D7C /* field_5x52_int128_impl.h */; };
+		81B8ED92216573AC00CB0D7C /* secp256k1_recovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC4B216561D500CB0D7C /* secp256k1_recovery.h */; };
+		81B8ED93216573AC00CB0D7C /* field_5x52_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC72216561D500CB0D7C /* field_5x52_impl.h */; };
+		81B8ED94216573AC00CB0D7C /* field_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6E216561D500CB0D7C /* field_impl.h */; };
+		81B8ED95216573AC00CB0D7C /* secp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC4C216561D500CB0D7C /* secp256k1.h */; };
+		81B8ED96216573AC00CB0D7C /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC75216561D500CB0D7C /* ecdsa.h */; };
+		81B8ED97216573AC00CB0D7C /* scalar_4x64.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6F216561D500CB0D7C /* scalar_4x64.h */; };
+		81B8ED98216573AC00CB0D7C /* eckey_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA1216561D500CB0D7C /* eckey_impl.h */; };
+		81B8ED99216573AC00CB0D7C /* field_10x26.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC66216561D500CB0D7C /* field_10x26.h */; };
+		81B8ED9A216573AC00CB0D7C /* scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC82216561D500CB0D7C /* scalar.h */; };
+		81B8ED9B216573AC00CB0D7C /* scalar_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC5F216561D500CB0D7C /* scalar_impl.h */; };
+		81B8ED9C216573AC00CB0D7C /* ecmult.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC87216561D500CB0D7C /* ecmult.h */; };
+		81B8ED9D216573AC00CB0D7C /* group.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC8B216561D500CB0D7C /* group.h */; };
+		81B8ED9E216573AC00CB0D7C /* lax_der_privatekey_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC51216561D500CB0D7C /* lax_der_privatekey_parsing.h */; };
+		81B8ED9F216573AC00CB0D7C /* num.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC71216561D500CB0D7C /* num.h */; };
+		81B8EDA0216573AC00CB0D7C /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA0216561D500CB0D7C /* hash.h */; };
+		81B8EDA1216573AC00CB0D7C /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC60216561D500CB0D7C /* field_10x26_impl.h */; };
+		81B8EDA2216573AC00CB0D7C /* scalar_8x32.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA5216561D500CB0D7C /* scalar_8x32.h */; };
+		81B8EDA3216573AC00CB0D7C /* ecmult_gen_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC65216561D500CB0D7C /* ecmult_gen_impl.h */; };
+		81B8EDA4216573AC00CB0D7C /* hash_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC86216561D500CB0D7C /* hash_impl.h */; };
+		81B8EDA5216573AC00CB0D7C /* eckey.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA7216561D500CB0D7C /* eckey.h */; };
+		81B8EDA6216573AC00CB0D7C /* scalar_8x32_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC67216561D500CB0D7C /* scalar_8x32_impl.h */; };
+		81B8EDA7216573AC00CB0D7C /* testrand.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA3216561D500CB0D7C /* testrand.h */; };
+		81B8EDA8216573AC00CB0D7C /* scalar_low_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC85216561D500CB0D7C /* scalar_low_impl.h */; };
+		81B8EDA9216573AC00CB0D7C /* scratch.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC64216561D500CB0D7C /* scratch.h */; };
+		81B8EDAA216573AC00CB0D7C /* secp256k1_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A0F9DA20BF384200417C64 /* secp256k1_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B8EDAB216573AC00CB0D7C /* scalar_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA6216561D500CB0D7C /* scalar_low.h */; };
+		81B8EDAC216573AC00CB0D7C /* num_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC69216561D500CB0D7C /* num_impl.h */; };
+		81B8EDAD216573AC00CB0D7C /* field_5x52_asm_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC6D216561D500CB0D7C /* field_5x52_asm_impl.h */; };
+		81B8EDAE216573AC00CB0D7C /* secp256k1_ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC4A216561D500CB0D7C /* secp256k1_ecdh.h */; };
+		81B8EDAF216573AC00CB0D7C /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9A216561D500CB0D7C /* main_impl.h */; };
+		81B8EDB0216573AC00CB0D7C /* scratch_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC88216561D500CB0D7C /* scratch_impl.h */; };
+		81B8EDB1216573AC00CB0D7C /* scalar_4x64_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC91216561D500CB0D7C /* scalar_4x64_impl.h */; };
+		81B8EDB2216573AC00CB0D7C /* num_gmp_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8ECA4216561D500CB0D7C /* num_gmp_impl.h */; };
+		81B8EDB3216573AC00CB0D7C /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B8EC9E216561D500CB0D7C /* main_impl.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,17 +197,13 @@
 		81B8EC51216561D500CB0D7C /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
 		81B8EC5F216561D500CB0D7C /* scalar_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_impl.h; sourceTree = "<group>"; };
 		81B8EC60216561D500CB0D7C /* field_10x26_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_10x26_impl.h; sourceTree = "<group>"; };
-		81B8EC61216561D500CB0D7C /* testrand_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testrand_impl.h; sourceTree = "<group>"; };
-		81B8EC63216561D500CB0D7C /* field_10x26_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = field_10x26_arm.s; sourceTree = "<group>"; };
 		81B8EC64216561D500CB0D7C /* scratch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scratch.h; sourceTree = "<group>"; };
 		81B8EC65216561D500CB0D7C /* ecmult_gen_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_gen_impl.h; sourceTree = "<group>"; };
 		81B8EC66216561D500CB0D7C /* field_10x26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_10x26.h; sourceTree = "<group>"; };
 		81B8EC67216561D500CB0D7C /* scalar_8x32_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_8x32_impl.h; sourceTree = "<group>"; };
 		81B8EC68216561D500CB0D7C /* field_5x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52.h; sourceTree = "<group>"; };
 		81B8EC69216561D500CB0D7C /* num_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_impl.h; sourceTree = "<group>"; };
-		81B8EC6A216561D500CB0D7C /* bench_recover.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_recover.c; sourceTree = "<group>"; };
 		81B8EC6B216561D500CB0D7C /* field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
-		81B8EC6C216561D500CB0D7C /* bench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bench.h; sourceTree = "<group>"; };
 		81B8EC6D216561D500CB0D7C /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52_asm_impl.h; sourceTree = "<group>"; };
 		81B8EC6E216561D500CB0D7C /* field_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_impl.h; sourceTree = "<group>"; };
 		81B8EC6F216561D500CB0D7C /* scalar_4x64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_4x64.h; sourceTree = "<group>"; };
@@ -213,15 +213,6 @@
 		81B8EC73216561D500CB0D7C /* ecmult_const_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_const_impl.h; sourceTree = "<group>"; };
 		81B8EC74216561D500CB0D7C /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
 		81B8EC75216561D500CB0D7C /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
-		81B8EC77216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = org_bitcoin_NativeSecp256k1.c; sourceTree = "<group>"; };
-		81B8EC7A216561D500CB0D7C /* NativeSecp256k1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NativeSecp256k1.java; sourceTree = "<group>"; };
-		81B8EC7B216561D500CB0D7C /* NativeSecp256k1Test.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NativeSecp256k1Test.java; sourceTree = "<group>"; };
-		81B8EC7C216561D500CB0D7C /* Secp256k1Context.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Secp256k1Context.java; sourceTree = "<group>"; };
-		81B8EC7D216561D500CB0D7C /* NativeSecp256k1Util.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NativeSecp256k1Util.java; sourceTree = "<group>"; };
-		81B8EC7E216561D500CB0D7C /* org_bitcoin_Secp256k1Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_Secp256k1Context.h; sourceTree = "<group>"; };
-		81B8EC7F216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_NativeSecp256k1.h; sourceTree = "<group>"; };
-		81B8EC80216561D500CB0D7C /* org_bitcoin_Secp256k1Context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = org_bitcoin_Secp256k1Context.c; sourceTree = "<group>"; };
-		81B8EC81216561D500CB0D7C /* tests_exhaustive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tests_exhaustive.c; sourceTree = "<group>"; };
 		81B8EC82216561D500CB0D7C /* scalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar.h; sourceTree = "<group>"; };
 		81B8EC83216561D500CB0D7C /* ecdsa_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa_impl.h; sourceTree = "<group>"; };
 		81B8EC84216561D500CB0D7C /* ecmult_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_gen.h; sourceTree = "<group>"; };
@@ -229,35 +220,26 @@
 		81B8EC86216561D500CB0D7C /* hash_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash_impl.h; sourceTree = "<group>"; };
 		81B8EC87216561D500CB0D7C /* ecmult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult.h; sourceTree = "<group>"; };
 		81B8EC88216561D500CB0D7C /* scratch_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scratch_impl.h; sourceTree = "<group>"; };
-		81B8EC89216561D500CB0D7C /* bench_sign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_sign.c; sourceTree = "<group>"; };
 		81B8EC8A216561D500CB0D7C /* ecmult_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_impl.h; sourceTree = "<group>"; };
 		81B8EC8B216561D500CB0D7C /* group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = group.h; sourceTree = "<group>"; };
-		81B8EC8C216561D500CB0D7C /* bench_verify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_verify.c; sourceTree = "<group>"; };
-		81B8EC8D216561D500CB0D7C /* tests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tests.c; sourceTree = "<group>"; };
-		81B8EC8E216561D500CB0D7C /* gen_context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gen_context.c; sourceTree = "<group>"; };
 		81B8EC8F216561D500CB0D7C /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		81B8EC90216561D500CB0D7C /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52_int128_impl.h; sourceTree = "<group>"; };
 		81B8EC91216561D500CB0D7C /* scalar_4x64_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_4x64_impl.h; sourceTree = "<group>"; };
-		81B8EC92216561D500CB0D7C /* bench_ecdh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_ecdh.c; sourceTree = "<group>"; };
 		81B8EC93216561D500CB0D7C /* group_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = group_impl.h; sourceTree = "<group>"; };
 		81B8EC94216561D500CB0D7C /* ecmult_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_const.h; sourceTree = "<group>"; };
-		81B8EC95216561D500CB0D7C /* bench_internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_internal.c; sourceTree = "<group>"; };
-		81B8EC98216561D500CB0D7C /* Makefile.am.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am.include; sourceTree = "<group>"; };
-		81B8EC99216561D500CB0D7C /* tests_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
 		81B8EC9A216561D500CB0D7C /* main_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
-		81B8EC9C216561D500CB0D7C /* Makefile.am.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am.include; sourceTree = "<group>"; };
-		81B8EC9D216561D500CB0D7C /* tests_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
 		81B8EC9E216561D500CB0D7C /* main_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
 		81B8EC9F216561D500CB0D7C /* num_gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_gmp.h; sourceTree = "<group>"; };
 		81B8ECA0216561D500CB0D7C /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
 		81B8ECA1216561D500CB0D7C /* eckey_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eckey_impl.h; sourceTree = "<group>"; };
-		81B8ECA2216561D500CB0D7C /* bench_ecmult.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_ecmult.c; sourceTree = "<group>"; };
 		81B8ECA3216561D500CB0D7C /* testrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testrand.h; sourceTree = "<group>"; };
 		81B8ECA4216561D500CB0D7C /* num_gmp_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_gmp_impl.h; sourceTree = "<group>"; };
 		81B8ECA5216561D500CB0D7C /* scalar_8x32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_8x32.h; sourceTree = "<group>"; };
 		81B8ECA6216561D500CB0D7C /* scalar_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_low.h; sourceTree = "<group>"; };
 		81B8ECA7216561D500CB0D7C /* eckey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eckey.h; sourceTree = "<group>"; };
 		81B8ED5A2165626000CB0D7C /* libsecp256k1-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libsecp256k1-config.h"; sourceTree = "<group>"; };
+		81B8ED7B2165730200CB0D7C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		81B8EDB8216573AC00CB0D7C /* secp256k1_swift_Cartage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = secp256k1_swift_Cartage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +259,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		81A0F9F220BF387100417C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B8ED82216573AC00CB0D7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,6 +292,7 @@
 				81A0F9D720BF384200417C64 /* secp256k1_swift.framework */,
 				81A0F9E020BF384200417C64 /* secp256k1_swiftTests.xctest */,
 				81A0F9F620BF387100417C64 /* secp256k1_swift_ios.framework */,
+				81B8EDB8216573AC00CB0D7C /* secp256k1_swift_Cartage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -340,6 +330,7 @@
 				81B8EC40216561D500CB0D7C /* secp256k1 */,
 				81A0F9FF20BF3A0300417C64 /* secp256k1.swift */,
 				81B8ED5A2165626000CB0D7C /* libsecp256k1-config.h */,
+				81B8ED7B2165730200CB0D7C /* module.modulemap */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -380,17 +371,13 @@
 			children = (
 				81B8EC5F216561D500CB0D7C /* scalar_impl.h */,
 				81B8EC60216561D500CB0D7C /* field_10x26_impl.h */,
-				81B8EC61216561D500CB0D7C /* testrand_impl.h */,
-				81B8EC62216561D500CB0D7C /* asm */,
 				81B8EC64216561D500CB0D7C /* scratch.h */,
 				81B8EC65216561D500CB0D7C /* ecmult_gen_impl.h */,
 				81B8EC66216561D500CB0D7C /* field_10x26.h */,
 				81B8EC67216561D500CB0D7C /* scalar_8x32_impl.h */,
 				81B8EC68216561D500CB0D7C /* field_5x52.h */,
 				81B8EC69216561D500CB0D7C /* num_impl.h */,
-				81B8EC6A216561D500CB0D7C /* bench_recover.c */,
 				81B8EC6B216561D500CB0D7C /* field.h */,
-				81B8EC6C216561D500CB0D7C /* bench.h */,
 				81B8EC6D216561D500CB0D7C /* field_5x52_asm_impl.h */,
 				81B8EC6E216561D500CB0D7C /* field_impl.h */,
 				81B8EC6F216561D500CB0D7C /* scalar_4x64.h */,
@@ -400,8 +387,6 @@
 				81B8EC73216561D500CB0D7C /* ecmult_const_impl.h */,
 				81B8EC74216561D500CB0D7C /* secp256k1.c */,
 				81B8EC75216561D500CB0D7C /* ecdsa.h */,
-				81B8EC76216561D500CB0D7C /* java */,
-				81B8EC81216561D500CB0D7C /* tests_exhaustive.c */,
 				81B8EC82216561D500CB0D7C /* scalar.h */,
 				81B8EC83216561D500CB0D7C /* ecdsa_impl.h */,
 				81B8EC84216561D500CB0D7C /* ecmult_gen.h */,
@@ -409,24 +394,17 @@
 				81B8EC86216561D500CB0D7C /* hash_impl.h */,
 				81B8EC87216561D500CB0D7C /* ecmult.h */,
 				81B8EC88216561D500CB0D7C /* scratch_impl.h */,
-				81B8EC89216561D500CB0D7C /* bench_sign.c */,
 				81B8EC8A216561D500CB0D7C /* ecmult_impl.h */,
 				81B8EC8B216561D500CB0D7C /* group.h */,
-				81B8EC8C216561D500CB0D7C /* bench_verify.c */,
-				81B8EC8D216561D500CB0D7C /* tests.c */,
-				81B8EC8E216561D500CB0D7C /* gen_context.c */,
 				81B8EC8F216561D500CB0D7C /* util.h */,
 				81B8EC90216561D500CB0D7C /* field_5x52_int128_impl.h */,
 				81B8EC91216561D500CB0D7C /* scalar_4x64_impl.h */,
-				81B8EC92216561D500CB0D7C /* bench_ecdh.c */,
 				81B8EC93216561D500CB0D7C /* group_impl.h */,
 				81B8EC94216561D500CB0D7C /* ecmult_const.h */,
-				81B8EC95216561D500CB0D7C /* bench_internal.c */,
 				81B8EC96216561D500CB0D7C /* modules */,
 				81B8EC9F216561D500CB0D7C /* num_gmp.h */,
 				81B8ECA0216561D500CB0D7C /* hash.h */,
 				81B8ECA1216561D500CB0D7C /* eckey_impl.h */,
-				81B8ECA2216561D500CB0D7C /* bench_ecmult.c */,
 				81B8ECA3216561D500CB0D7C /* testrand.h */,
 				81B8ECA4216561D500CB0D7C /* num_gmp_impl.h */,
 				81B8ECA5216561D500CB0D7C /* scalar_8x32.h */,
@@ -434,45 +412,6 @@
 				81B8ECA7216561D500CB0D7C /* eckey.h */,
 			);
 			path = src;
-			sourceTree = "<group>";
-		};
-		81B8EC62216561D500CB0D7C /* asm */ = {
-			isa = PBXGroup;
-			children = (
-				81B8EC63216561D500CB0D7C /* field_10x26_arm.s */,
-			);
-			path = asm;
-			sourceTree = "<group>";
-		};
-		81B8EC76216561D500CB0D7C /* java */ = {
-			isa = PBXGroup;
-			children = (
-				81B8EC77216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.c */,
-				81B8EC78216561D500CB0D7C /* org */,
-				81B8EC7E216561D500CB0D7C /* org_bitcoin_Secp256k1Context.h */,
-				81B8EC7F216561D500CB0D7C /* org_bitcoin_NativeSecp256k1.h */,
-				81B8EC80216561D500CB0D7C /* org_bitcoin_Secp256k1Context.c */,
-			);
-			path = java;
-			sourceTree = "<group>";
-		};
-		81B8EC78216561D500CB0D7C /* org */ = {
-			isa = PBXGroup;
-			children = (
-				81B8EC79216561D500CB0D7C /* bitcoin */,
-			);
-			path = org;
-			sourceTree = "<group>";
-		};
-		81B8EC79216561D500CB0D7C /* bitcoin */ = {
-			isa = PBXGroup;
-			children = (
-				81B8EC7A216561D500CB0D7C /* NativeSecp256k1.java */,
-				81B8EC7B216561D500CB0D7C /* NativeSecp256k1Test.java */,
-				81B8EC7C216561D500CB0D7C /* Secp256k1Context.java */,
-				81B8EC7D216561D500CB0D7C /* NativeSecp256k1Util.java */,
-			);
-			path = bitcoin;
 			sourceTree = "<group>";
 		};
 		81B8EC96216561D500CB0D7C /* modules */ = {
@@ -487,8 +426,6 @@
 		81B8EC97216561D500CB0D7C /* recovery */ = {
 			isa = PBXGroup;
 			children = (
-				81B8EC98216561D500CB0D7C /* Makefile.am.include */,
-				81B8EC99216561D500CB0D7C /* tests_impl.h */,
 				81B8EC9A216561D500CB0D7C /* main_impl.h */,
 			);
 			path = recovery;
@@ -497,8 +434,6 @@
 		81B8EC9B216561D500CB0D7C /* ecdh */ = {
 			isa = PBXGroup;
 			children = (
-				81B8EC9C216561D500CB0D7C /* Makefile.am.include */,
-				81B8EC9D216561D500CB0D7C /* tests_impl.h */,
 				81B8EC9E216561D500CB0D7C /* main_impl.h */,
 			);
 			path = ecdh;
@@ -514,7 +449,6 @@
 				81B8ED48216561D600CB0D7C /* num_gmp.h in Headers */,
 				81B8ECB8216561D500CB0D7C /* lax_der_parsing.h in Headers */,
 				81B8ED2E216561D600CB0D7C /* util.h in Headers */,
-				81B8ED44216561D600CB0D7C /* tests_impl.h in Headers */,
 				81B8ED38216561D600CB0D7C /* ecmult_const.h in Headers */,
 				81B8ED18216561D600CB0D7C /* ecmult_gen.h in Headers */,
 				81B8ECEC216561D500CB0D7C /* field.h in Headers */,
@@ -541,24 +475,19 @@
 				81B8ECBE216561D500CB0D7C /* lax_der_privatekey_parsing.h in Headers */,
 				81B8ECF8216561D500CB0D7C /* num.h in Headers */,
 				81B8ED4A216561D600CB0D7C /* hash.h in Headers */,
-				81B8ED0E216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.h in Headers */,
 				81B8ECD8216561D500CB0D7C /* field_10x26_impl.h in Headers */,
 				81B8ED54216561D600CB0D7C /* scalar_8x32.h in Headers */,
 				81B8ECE0216561D500CB0D7C /* ecmult_gen_impl.h in Headers */,
-				81B8ED0C216561D600CB0D7C /* org_bitcoin_Secp256k1Context.h in Headers */,
 				81B8ED1C216561D600CB0D7C /* hash_impl.h in Headers */,
 				81B8ED58216561D600CB0D7C /* eckey.h in Headers */,
 				81B8ECE4216561D500CB0D7C /* scalar_8x32_impl.h in Headers */,
 				81B8ED50216561D600CB0D7C /* testrand.h in Headers */,
-				81B8ECDA216561D500CB0D7C /* testrand_impl.h in Headers */,
 				81B8ED1A216561D600CB0D7C /* scalar_low_impl.h in Headers */,
 				81B8ECDE216561D500CB0D7C /* scratch.h in Headers */,
 				81A0F9E820BF384200417C64 /* secp256k1_swift.h in Headers */,
 				81B8ED56216561D600CB0D7C /* scalar_low.h in Headers */,
 				81B8ECE8216561D500CB0D7C /* num_impl.h in Headers */,
-				81B8ED3E216561D600CB0D7C /* tests_impl.h in Headers */,
 				81B8ECF0216561D500CB0D7C /* field_5x52_asm_impl.h in Headers */,
-				81B8ECEE216561D500CB0D7C /* bench.h in Headers */,
 				81B8ECB2216561D500CB0D7C /* secp256k1_ecdh.h in Headers */,
 				81B8ED40216561D600CB0D7C /* main_impl.h in Headers */,
 				81B8ED20216561D600CB0D7C /* scratch_impl.h in Headers */,
@@ -575,7 +504,6 @@
 				81B8ED49216561D600CB0D7C /* num_gmp.h in Headers */,
 				81B8ECB9216561D500CB0D7C /* lax_der_parsing.h in Headers */,
 				81B8ED2F216561D600CB0D7C /* util.h in Headers */,
-				81B8ED45216561D600CB0D7C /* tests_impl.h in Headers */,
 				81B8ED39216561D600CB0D7C /* ecmult_const.h in Headers */,
 				81B8ED19216561D600CB0D7C /* ecmult_gen.h in Headers */,
 				81B8ECED216561D500CB0D7C /* field.h in Headers */,
@@ -602,30 +530,80 @@
 				81B8ECBF216561D500CB0D7C /* lax_der_privatekey_parsing.h in Headers */,
 				81B8ECF9216561D500CB0D7C /* num.h in Headers */,
 				81B8ED4B216561D600CB0D7C /* hash.h in Headers */,
-				81B8ED0F216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.h in Headers */,
 				81B8ECD9216561D500CB0D7C /* field_10x26_impl.h in Headers */,
 				81B8ED55216561D600CB0D7C /* scalar_8x32.h in Headers */,
 				81B8ECE1216561D500CB0D7C /* ecmult_gen_impl.h in Headers */,
-				81B8ED0D216561D600CB0D7C /* org_bitcoin_Secp256k1Context.h in Headers */,
 				81B8ED1D216561D600CB0D7C /* hash_impl.h in Headers */,
 				81B8ED59216561D600CB0D7C /* eckey.h in Headers */,
 				81B8ECE5216561D500CB0D7C /* scalar_8x32_impl.h in Headers */,
 				81B8ED51216561D600CB0D7C /* testrand.h in Headers */,
-				81B8ECDB216561D500CB0D7C /* testrand_impl.h in Headers */,
 				81B8ED1B216561D600CB0D7C /* scalar_low_impl.h in Headers */,
 				81B8ECDF216561D500CB0D7C /* scratch.h in Headers */,
 				81A0F9FA20BF387100417C64 /* secp256k1_swift_ios.h in Headers */,
 				81B8ED57216561D600CB0D7C /* scalar_low.h in Headers */,
 				81B8ECE9216561D500CB0D7C /* num_impl.h in Headers */,
-				81B8ED3F216561D600CB0D7C /* tests_impl.h in Headers */,
 				81B8ECF1216561D500CB0D7C /* field_5x52_asm_impl.h in Headers */,
-				81B8ECEF216561D500CB0D7C /* bench.h in Headers */,
 				81B8ECB3216561D500CB0D7C /* secp256k1_ecdh.h in Headers */,
 				81B8ED41216561D600CB0D7C /* main_impl.h in Headers */,
 				81B8ED21216561D600CB0D7C /* scratch_impl.h in Headers */,
 				81B8ED33216561D600CB0D7C /* scalar_4x64_impl.h in Headers */,
 				81B8ED53216561D600CB0D7C /* num_gmp_impl.h in Headers */,
 				81B8ED47216561D600CB0D7C /* main_impl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B8ED83216573AC00CB0D7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B8ED84216573AC00CB0D7C /* num_gmp.h in Headers */,
+				81B8ED85216573AC00CB0D7C /* lax_der_parsing.h in Headers */,
+				81B8ED86216573AC00CB0D7C /* util.h in Headers */,
+				81B8ED87216573AC00CB0D7C /* ecmult_const.h in Headers */,
+				81B8ED88216573AC00CB0D7C /* ecmult_gen.h in Headers */,
+				81B8ED89216573AC00CB0D7C /* field.h in Headers */,
+				81B8ED8A216573AC00CB0D7C /* ecmult_const_impl.h in Headers */,
+				81B8ED8B216573AC00CB0D7C /* ecmult_impl.h in Headers */,
+				81B8ED8C216573AC00CB0D7C /* libsecp256k1-config.h in Headers */,
+				81B8ED8D216573AC00CB0D7C /* field_5x52.h in Headers */,
+				81B8ED8E216573AC00CB0D7C /* basic-config.h in Headers */,
+				81B8ED8F216573AC00CB0D7C /* group_impl.h in Headers */,
+				81B8ED90216573AC00CB0D7C /* ecdsa_impl.h in Headers */,
+				81B8ED91216573AC00CB0D7C /* field_5x52_int128_impl.h in Headers */,
+				81B8ED92216573AC00CB0D7C /* secp256k1_recovery.h in Headers */,
+				81B8ED93216573AC00CB0D7C /* field_5x52_impl.h in Headers */,
+				81B8ED94216573AC00CB0D7C /* field_impl.h in Headers */,
+				81B8ED95216573AC00CB0D7C /* secp256k1.h in Headers */,
+				81B8ED96216573AC00CB0D7C /* ecdsa.h in Headers */,
+				81B8ED97216573AC00CB0D7C /* scalar_4x64.h in Headers */,
+				81B8ED98216573AC00CB0D7C /* eckey_impl.h in Headers */,
+				81B8ED99216573AC00CB0D7C /* field_10x26.h in Headers */,
+				81B8ED9A216573AC00CB0D7C /* scalar.h in Headers */,
+				81B8ED9B216573AC00CB0D7C /* scalar_impl.h in Headers */,
+				81B8ED9C216573AC00CB0D7C /* ecmult.h in Headers */,
+				81B8ED9D216573AC00CB0D7C /* group.h in Headers */,
+				81B8ED9E216573AC00CB0D7C /* lax_der_privatekey_parsing.h in Headers */,
+				81B8ED9F216573AC00CB0D7C /* num.h in Headers */,
+				81B8EDA0216573AC00CB0D7C /* hash.h in Headers */,
+				81B8EDA1216573AC00CB0D7C /* field_10x26_impl.h in Headers */,
+				81B8EDA2216573AC00CB0D7C /* scalar_8x32.h in Headers */,
+				81B8EDA3216573AC00CB0D7C /* ecmult_gen_impl.h in Headers */,
+				81B8EDA4216573AC00CB0D7C /* hash_impl.h in Headers */,
+				81B8EDA5216573AC00CB0D7C /* eckey.h in Headers */,
+				81B8EDA6216573AC00CB0D7C /* scalar_8x32_impl.h in Headers */,
+				81B8EDA7216573AC00CB0D7C /* testrand.h in Headers */,
+				81B8EDA8216573AC00CB0D7C /* scalar_low_impl.h in Headers */,
+				81B8EDA9216573AC00CB0D7C /* scratch.h in Headers */,
+				81B8EDAA216573AC00CB0D7C /* secp256k1_swift.h in Headers */,
+				81B8EDAB216573AC00CB0D7C /* scalar_low.h in Headers */,
+				81B8EDAC216573AC00CB0D7C /* num_impl.h in Headers */,
+				81B8EDAD216573AC00CB0D7C /* field_5x52_asm_impl.h in Headers */,
+				81B8EDAE216573AC00CB0D7C /* secp256k1_ecdh.h in Headers */,
+				81B8EDAF216573AC00CB0D7C /* main_impl.h in Headers */,
+				81B8EDB0216573AC00CB0D7C /* scratch_impl.h in Headers */,
+				81B8EDB1216573AC00CB0D7C /* scalar_4x64_impl.h in Headers */,
+				81B8EDB2216573AC00CB0D7C /* num_gmp_impl.h in Headers */,
+				81B8EDB3216573AC00CB0D7C /* main_impl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +664,24 @@
 			productReference = 81A0F9F620BF387100417C64 /* secp256k1_swift_ios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		81B8ED7C216573AC00CB0D7C /* secp256k1_swift_Cartage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B8EDB5216573AC00CB0D7C /* Build configuration list for PBXNativeTarget "secp256k1_swift_Cartage" */;
+			buildPhases = (
+				81B8ED7D216573AC00CB0D7C /* Sources */,
+				81B8ED82216573AC00CB0D7C /* Frameworks */,
+				81B8ED83216573AC00CB0D7C /* Headers */,
+				81B8EDB4216573AC00CB0D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = secp256k1_swift_Cartage;
+			productName = secp256k1_swift;
+			productReference = 81B8EDB8216573AC00CB0D7C /* secp256k1_swift_Cartage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -723,6 +719,7 @@
 				81A0F9D620BF384200417C64 /* secp256k1_swift */,
 				81A0F9DF20BF384200417C64 /* secp256k1_swiftTests */,
 				81A0F9F520BF387100417C64 /* secp256k1_swift_ios */,
+				81B8ED7C216573AC00CB0D7C /* secp256k1_swift_Cartage */,
 			);
 		};
 /* End PBXProject section */
@@ -732,8 +729,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B8ED42216561D600CB0D7C /* Makefile.am.include in Resources */,
-				81B8ED3C216561D600CB0D7C /* Makefile.am.include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,8 +743,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B8ED43216561D600CB0D7C /* Makefile.am.include in Resources */,
-				81B8ED3D216561D600CB0D7C /* Makefile.am.include in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B8EDB4216573AC00CB0D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,26 +760,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B8ED4E216561D600CB0D7C /* bench_ecmult.c in Sources */,
-				81B8ED2C216561D600CB0D7C /* gen_context.c in Sources */,
 				81B8ECBA216561D500CB0D7C /* lax_der_privatekey_parsing.c in Sources */,
-				81B8ECEA216561D500CB0D7C /* bench_recover.c in Sources */,
-				81B8ED02216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.c in Sources */,
-				81B8ED3A216561D600CB0D7C /* bench_internal.c in Sources */,
 				81B8ECFE216561D500CB0D7C /* secp256k1.c in Sources */,
-				81B8ED08216561D600CB0D7C /* Secp256k1Context.java in Sources */,
-				81B8ED12216561D600CB0D7C /* tests_exhaustive.c in Sources */,
-				81B8ECDC216561D500CB0D7C /* field_10x26_arm.s in Sources */,
-				81B8ED0A216561D600CB0D7C /* NativeSecp256k1Util.java in Sources */,
-				81B8ED06216561D600CB0D7C /* NativeSecp256k1Test.java in Sources */,
 				81A0FA0020BF3A0300417C64 /* secp256k1.swift in Sources */,
 				81B8ECBC216561D500CB0D7C /* lax_der_parsing.c in Sources */,
-				81B8ED2A216561D600CB0D7C /* tests.c in Sources */,
-				81B8ED10216561D600CB0D7C /* org_bitcoin_Secp256k1Context.c in Sources */,
-				81B8ED34216561D600CB0D7C /* bench_ecdh.c in Sources */,
-				81B8ED04216561D600CB0D7C /* NativeSecp256k1.java in Sources */,
-				81B8ED28216561D600CB0D7C /* bench_verify.c in Sources */,
-				81B8ED22216561D600CB0D7C /* bench_sign.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,26 +779,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B8ED4F216561D600CB0D7C /* bench_ecmult.c in Sources */,
-				81B8ED2D216561D600CB0D7C /* gen_context.c in Sources */,
 				81B8ECBB216561D500CB0D7C /* lax_der_privatekey_parsing.c in Sources */,
-				81B8ECEB216561D500CB0D7C /* bench_recover.c in Sources */,
-				81B8ED03216561D600CB0D7C /* org_bitcoin_NativeSecp256k1.c in Sources */,
-				81B8ED3B216561D600CB0D7C /* bench_internal.c in Sources */,
 				81B8ECFF216561D500CB0D7C /* secp256k1.c in Sources */,
-				81B8ED09216561D600CB0D7C /* Secp256k1Context.java in Sources */,
-				81B8ED13216561D600CB0D7C /* tests_exhaustive.c in Sources */,
-				81B8ECDD216561D500CB0D7C /* field_10x26_arm.s in Sources */,
-				81B8ED0B216561D600CB0D7C /* NativeSecp256k1Util.java in Sources */,
-				81B8ED07216561D600CB0D7C /* NativeSecp256k1Test.java in Sources */,
 				81A0FA0120BF3A0500417C64 /* secp256k1.swift in Sources */,
 				81B8ECBD216561D500CB0D7C /* lax_der_parsing.c in Sources */,
-				81B8ED2B216561D600CB0D7C /* tests.c in Sources */,
-				81B8ED11216561D600CB0D7C /* org_bitcoin_Secp256k1Context.c in Sources */,
-				81B8ED35216561D600CB0D7C /* bench_ecdh.c in Sources */,
-				81B8ED05216561D600CB0D7C /* NativeSecp256k1.java in Sources */,
-				81B8ED29216561D600CB0D7C /* bench_verify.c in Sources */,
-				81B8ED23216561D600CB0D7C /* bench_sign.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B8ED7D216573AC00CB0D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B8ED7E216573AC00CB0D7C /* lax_der_privatekey_parsing.c in Sources */,
+				81B8ED7F216573AC00CB0D7C /* secp256k1.c in Sources */,
+				81B8ED80216573AC00CB0D7C /* secp256k1.swift in Sources */,
+				81B8ED81216573AC00CB0D7C /* lax_der_parsing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -969,7 +948,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.bankexfoundation.secp256k1-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -998,7 +977,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.bankexfoundation.secp256k1-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1018,7 +997,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.bankexfoundation.secp256k1-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -1037,7 +1016,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.bankexfoundation.secp256k1-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -1061,7 +1040,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.bankexfoundation.secp256k1-swift-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swift-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1088,13 +1067,108 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.bankexfoundation.secp256k1-swift-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swift-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B8EDB6216573AC00CB0D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62V9CKQN89;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "$SRCROOT/Classes/secp256k1/**";
+				INFOPLIST_FILE = "secp256k1_swift _Carthage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H=1",
+					"-pedantic",
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wstrict-prototypes",
+					"-Wno-shorten-64-to-32",
+					"-Wno-conditional-uninitialized",
+					"-Wno-unused-function",
+					"-Wno-long-long",
+					"-Wno-overlength-strings",
+					"-O3",
+				);
+				OTHER_SWIFT_FLAGS = "-D CARTHAGE";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = $SRCROOT/Classes;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		81B8EDB7216573AC00CB0D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62V9CKQN89;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "$SRCROOT/Classes/secp256k1/**";
+				INFOPLIST_FILE = "secp256k1_swift _Carthage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H=1",
+					"-pedantic",
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wstrict-prototypes",
+					"-Wno-shorten-64-to-32",
+					"-Wno-conditional-uninitialized",
+					"-Wno-unused-function",
+					"-Wno-long-long",
+					"-Wno-overlength-strings",
+					"-O3",
+				);
+				OTHER_SWIFT_FLAGS = "-D CARTHAGE";
+				PRODUCT_BUNDLE_IDENTIFIER = "shamatar.secp256k1-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = $SRCROOT/Classes;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1133,6 +1207,15 @@
 			buildConfigurations = (
 				81A0F9FC20BF387100417C64 /* Debug */,
 				81A0F9FD20BF387100417C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B8EDB5216573AC00CB0D7C /* Build configuration list for PBXNativeTarget "secp256k1_swift_Cartage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B8EDB6216573AC00CB0D7C /* Debug */,
+				81B8EDB7216573AC00CB0D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

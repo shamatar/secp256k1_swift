@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "secp256k1_swift"
-s.version          = "1.0.0"
+s.version          = "1.0.1"
 s.summary          = "Swift bindings for secp256k1 C library for iOS and OSX"
 
 s.description      = <<-DESC
@@ -34,6 +34,6 @@ s.pod_target_xcconfig = {
 s.source_files = 'Classes/secp256k1/{src,include,contrib}/*.{h,c}', 'Classes/secp256k1/src/modules/{recovery,ecdh}/*.{h,c}', 'Classes/libsecp256k1-config.h', 'Classes/secp256k1_main.h', 'Classes/secp256k1.swift'
 s.public_header_files = 'Classes/secp256k1/include/*.h'
 s.private_header_files = 'Classes/secp256k1/*.h', 'Classes/secp256k1/{contrib,src}/*.h', 'Classes/secp256k1/src/modules/{recovery, ecdh}/*.h'
-s.exclude_files = 'Classes/secp256k1/src/test*.{c,h}', 'Classes/secp256k1/src/gen_context.c', 'Classes/secp256k1/src/*bench*.{c,h}', 'Classes/secp256k1/src/modules/{recovery,ecdh}/*test*.{c,h}'
+s.exclude_files = 'Classes/secp256k1/src/test*.{c,h}', 'Classes/secp256k1/src/gen_context.c', 'Classes/secp256k1/src/*bench*.{c,h}', 'Classes/secp256k1/src/modules/{recovery,ecdh}/*test*.{c,h}', 'Classes/module.modulemap'
 
 end

@@ -7,7 +7,9 @@
 //
 
 import Foundation
-
+#if CARTHAGE
+import libsecp256k1
+#endif
 public struct SECP256K1 {
     public struct UnmarshaledSignature{
         var v: UInt8 = 0
