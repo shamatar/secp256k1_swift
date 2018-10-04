@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "81B8EE74216651B800CB0D7C"
+               BuildableName = "secp256k1_swiftTests_Carthage.xctest"
+               BlueprintName = "secp256k1_swiftTests_Carthage"
+               ReferencedContainer = "container:secp256k1_swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "81B8ED7C216573AC00CB0D7C"
+            BuildableName = "secp256k1_swift_Cartage.framework"
+            BlueprintName = "secp256k1_swift_Cartage"
+            ReferencedContainer = "container:secp256k1_swift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
