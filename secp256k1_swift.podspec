@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "secp256k1_swift"
-s.version          = "1.0.1"
+s.version          = "1.0.2"
 s.summary          = "Swift bindings for secp256k1 C library for iOS and OSX"
 
 s.description      = <<-DESC

@@ -12,9 +12,15 @@ import libsecp256k1
 #endif
 public struct SECP256K1 {
     public struct UnmarshaledSignature{
-        var v: UInt8 = 0
-        var r = Data(repeating: 0, count: 32)
-        var s = Data(repeating: 0, count: 32)
+        public var v: UInt8 = 0
+        public var r = Data(repeating: 0, count: 32)
+        public var s = Data(repeating: 0, count: 32)
+        
+        public init(v: UInt8, r: Data, s: Data) {
+            self.v = v
+            self.r = r
+            self.s = s
+        }
     }
 }
 
